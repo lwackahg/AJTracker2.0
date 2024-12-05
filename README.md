@@ -1,5 +1,41 @@
 # Book to Movie Adaptation Tracker (`app/`)
 
+
+## Getting Started
+
+### Prerequisites
+- Python 3.8+
+- SQLite or MySQL database
+- TMDb API key
+- Google Books API key
+
+### Installation
+1. Clone the repository
+2. Install dependencies: `pip install -r requirements.txt`
+3. Configure API keys in `.env`
+4. Initialize database: `python init_db.py`
+5. Run the database migrations: `python run.py`
+6. Run the application: `python menu.py`
+
+## Usage
+
+### Main Menu
+1. **Browse & Discover**
+   - Search for books and movies
+   - Filter content
+   - Find adaptations
+
+2. **Your Collections**
+   - Manage watchlist
+   - Manage reading list
+   - View history
+   - Write reviews
+
+3. **Account Management**
+   - Register/Login
+   - Update preferences
+   - View personal history
+
 A comprehensive application for tracking and discovering book-to-movie adaptations, managing reading lists, and sharing reviews.
 
 ## Project Structure (`app/`)
@@ -261,41 +297,6 @@ This limitation exists because:
    - Outside the scope of our current architecture
 4. The current approach prioritizes accuracy over completeness - we'd rather miss some adaptations than make incorrect matches
 
-
-## Getting Started
-
-### Prerequisites
-- Python 3.8+
-- SQLite or MySQL database
-- TMDb API key
-- Google Books API key
-
-### Installation
-1. Clone the repository
-2. Install dependencies: `pip install -r requirements.txt`
-3. Configure API keys in `.env`
-4. Initialize database: `python init_db.py`
-5. Run the database migrations: `python run.py`
-6. Run the application: `python menu.py`
-
-## Usage
-
-### Main Menu
-1. **Browse & Discover**
-   - Search for books and movies
-   - Filter content
-   - Find adaptations
-
-2. **Your Collections**
-   - Manage watchlist
-   - Manage reading list
-   - View history
-   - Write reviews
-
-3. **Account Management**
-   - Register/Login
-   - Update preferences
-   - View personal history
 
 ## Contributing
 Please read CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.
